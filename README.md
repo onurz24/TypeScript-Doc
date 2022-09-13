@@ -1,2 +1,2 @@
 # TypeScript-Doc
-Notes formyself 
+TS Notes for myself 
