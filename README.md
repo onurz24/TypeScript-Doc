@@ -1,0 +1,2 @@
+# TypeScript-Doc
+Notes formyself 
