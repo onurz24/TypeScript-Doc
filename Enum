@@ -1,0 +1,57 @@
+
+/* 
+ Enum Elements just Calculate the Value
+ of the Element before.
+ It starts with 0 but you can 
+ also set the Value from "left" to 100
+ then "right" will be 101 and "up" 102 
+ */
+enum direction {
+    left,
+    right,
+    up,
+    bottom
+}
+
+
+console.log(direction.left)
+/*
+ Will output 0 becuase left starts with 0,
+ we didnt change the value 
+ and it doesnt have a element before it.
+ direction.right will be 1 etc...
+*/
+
+ /*
+We can check what enum element 
+ is at which position what by just saying this : 
+ like an array with an index
+ */
+ console.log(direction[0]);
+
+ /* Will output "left" */
+
+
+
+ /* 
+ if we did this : 
+
+
+ enum direction {
+    left,
+    right = 100,
+    up,
+    bottom
+}
+
+console.log(direction.up)
+
+
+it would output 101 and 
+console.log(direction.bottom)
+
+will output 102
+
+
+left and right are still 0 and 1
+  */
